@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript">
+		var a=Number(prompt("enter the radius"));
+		alert("area is "+(Math.PI*a*a));
+	</script>
+	
+	<title></title>
+</head>
+<body>
+<form name="form1" form method="post" action="http://localhost/php%20hutta/exm.php">
+	<h1>Registration Form</h1>
+	First name <input style="float: right;" type="text" name="fname"><br><br>
+	Last name <input style="float: right;" type="text" name="lname"><br><br>
+	Mobile Number <input style="float: right;" type="text" name="num"><br><br>
+	Gender	<label style="float: right;" for="male">Male</label>
+			<input  style="float: right;" type="radio" value="male" name="gnd">
+			<label style="float: right;" for="male">Female</label>
+			<input  style="float: right;" type="radio" value="female" name="gnd"><br><br>
+	Email <input  style="float: right;" type="text" name="email"><br><br>
+	Favorite Music	<label style="float: right;" for="other">Other</label>
+					<input style="float: right;" type="checkbox" value="other" name="music">
+					<label style="float: right;" for="pop">POP</label>
+	 				<input style="float: right;" type="checkbox" value="pop" name="music">
+					<label style="float: right;" for="rock">ROCK</label>
+					<input style="float: right;" type="checkbox" value="rock" name="music">
+					<br><br>
+	Additional Details <textarea style="float: right;
+					height: 45px;" name="det"></textarea><br><br><br>
+	<center><input type="checkbox" id="slct" name="slct">
+    <label for="slct">I agree to the term and conditions.</label></center><br><br>
+    <center><input type="submit" name="submit">
+    <input type="Reset" name="Reset"></center>
+
+</form>
+</body>
+</html>
