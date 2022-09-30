@@ -1,7 +1,7 @@
 *{
 	margin: 0;
 	padding: 10;
-	font-family: sans-serif;
+	font-family: Verdana;
 	border:0;
 }
 
@@ -32,7 +32,7 @@
 	content: '';
 	height: 3px;
 	width: 0;
-	background: #009688;
+	background: #1697e2;
 	position: absolute;
 	left: 0;
 	bottom: -7px;
@@ -52,7 +52,7 @@
 	top: 50%;
 	transform: translateY(-50%);
 	text-align: center;
-	color: #fff;
+	color: rgb(255, 255, 255);
 }
 .content h1{
 	font-size: 70px;
@@ -69,30 +69,33 @@ button {
 	height: 40px;
 	font-size: 17px;
 	border-radius:50px;
-	border: 2px solid #009688;
+	border: 2px solid #1697e2;
 	background: transparent;
-	color: white;
+	color: black;
 	margin-top: 50px ;
+	
 	
 }
 
 input{
-	background: transparent;
+	background-color: white;
     border: none;
-	color: white;
+	color: black;
 }
 
 select{
-	background: transparent;
+	background-color: white;
     border: none;
 	color: gray;
 }
 .tt{
+	background-color: #fff;
 	margin-left: auto;
 	margin-right: auto;
-	border: solid #009688;
-	width: 70%;
+	border: solid #1697e2;
+	width: 80%;
 	border-radius: 10px;
+	
 	
 }
 #fr{
@@ -121,20 +124,27 @@ border-right: none;
 	border-left: none;
 }
 td{
-	border: solid 1px #009688;
+	border: solid 1px #1697e2;
 	height: 50px;
 	
 }
 
 #book{
 	border: none;
+	font-size: 30px;
+	font-family: Verdana;
+	background-color: #1697e2;
+	border-radius: 10px;
 }
 button:hover
 {
 	cursor: pointer;
-	background-color: #009688;
+	background-color:#1697e2;
 	transition: 0.6s;
 }
 ::placeholder{
-	color: white;
+	color: black;
+}
+body{
+	background-color: #afc7ce;
 }
