@@ -80,7 +80,6 @@ input{
 	background: transparent;
     border: none;
 	color: white;
-	
 }
 
 select{
@@ -123,9 +122,10 @@ border-right: none;
 }
 td{
 	border: solid 1px #009688;
-	
 	height: 50px;
+	
 }
+
 #book{
 	border: none;
 }
