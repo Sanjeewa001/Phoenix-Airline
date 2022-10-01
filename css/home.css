@@ -1,13 +1,20 @@
 *{
-	margin: 0;
+	margin-left: 10px;
 	padding: 10;
+<<<<<<< Updated upstream
 	font-family: Verdana;
+=======
+	font-family: verdana;
+>>>>>>> Stashed changes
 	border:0;
+}
+ .h1{font-family:verdana;
 }
 
 
+
 .navbar{
-	float: right;}
+	float:right;}
 
 
 .navbar{
@@ -25,7 +32,7 @@
 }
 .navbar ul li a{
 	text-decoration: none;
-	color: #fff;
+	color: black;
 	text-transform: uppercase;
 }
 .navbar ul li::after{
@@ -41,6 +48,7 @@
 .navbar ul li:hover::after{
 	width: 100%;
 }
+<<<<<<< Updated upstream
 .logo{
 	width: 100px;
 	cursor: pointer;
@@ -131,4 +139,27 @@ button:hover
 }
 body{
 	background-color: #afc7ce;
+=======
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+  float: center;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+.topnav input[type=text] {
+    border: 1px solid #ccc;
+  }
+.table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+
+}
+table.center{
+	margin-right: auto;
+	margin-left: auto;
+
+>>>>>>> Stashed changes
 }
