@@ -89,10 +89,10 @@ select{
 	color: gray;
 }
 .tt{
+	box-shadow: 2px 15px 25px 5px rgb(109, 109, 109);
 	background-color: #fff;
 	margin-left: auto;
 	margin-right: auto;
-	border: solid #1697e2;
 	width: 80%;
 	border-radius: 10px;
 	
@@ -102,29 +102,12 @@ select{
 	border-bottom-left-radius: 10px;
 	
 }
-#ic{
-border-left: none;
-border-right: none;
-}
 
-#cl{
-	border: none;
 
-}
-#tr{
-	border: none;
-}
-#de{
-	border-top: none;
-	border-bottom: none;	
-}
-#re{
-	border-top: none;
-	border-bottom: none;
-	border-left: none;
-}
+
+
 td{
-	border: solid 1px #1697e2;
+	
 	height: 50px;
 	
 }
@@ -133,8 +116,9 @@ td{
 	border: none;
 	font-size: 30px;
 	font-family: Verdana;
-	background-color: #1697e2;
+	background-color: #ffffff;
 	border-radius: 10px;
+	color: black;
 }
 button:hover
 {
