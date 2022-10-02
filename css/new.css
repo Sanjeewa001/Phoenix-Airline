@@ -59,8 +59,7 @@
 .table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
-  line-height: px;
-
+  line-height: 45px;
 }
 table.center{
 	margin-right: auto;
