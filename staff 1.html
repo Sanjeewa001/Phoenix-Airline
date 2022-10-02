@@ -2,9 +2,7 @@
 <html>
 <head>
 	<title> phonix-Airline</title>
-	<link rel = "icon" href = 
-"assets/3.png" 
-        type = "image/x-icon">
+	<link rel = "icon" href = "assets/3.png" type = "image/x-icon">
 
 	<link rel="stylesheet" type="text/css" href="css/staff1.css">
 </head>
@@ -25,22 +23,30 @@
 </div>
 <br>
 
-<table class="center" bgcolor="black">
+<table class="center table table-responsive" bgcolor="black">
+	<thead>
   <tr bgcolor="#d3d3d3">
+  	<th></th>
     <th>TicketID</th>
     <th>FlightID</th>
     <th>Destination</th>
     <th>Date</th>
     <th>Passenger Details</th>
   </tr>
+</thead>
+<tbody>
+	<form>
   <tr bgcolor="white">
-  	<td><input type="text" name="tId" placeholder="Ticket ID" style="background-color: transparent;"> </td>
+  	<td><div class="radio">
+  		<label><input type="radio" name="select" placeholder="" style="background-color: transparent;"></label></div> </td>
+  		<td><label><input type="text" name="tId" placeholder="Ticket ID" style="background-color: transparent;"></label></div> </td>
   	<td><input type="text" name="fId" placeholder="Flight ID" style="background-color: transparent;"> </td>
   	<td><input type="text" name="des" placeholder="Destination" style="background-color: transparent;"> </td>
   	<td><input type="Date" name="date" placeholder="Date" style="background-color: transparent;"> </td>
   	<td><input type="text" name="pD" placeholder="Passenger detail" style="background-color: transparent;"> </td>
   </tr>
-
+</form>
+</tbody>
 </table>
 </body>
 </html>
