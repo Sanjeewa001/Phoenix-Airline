@@ -1,6 +1,6 @@
 *{
 	margin: 0;
-	padding: 10;
+	padding: 10px;
 	font-family: Verdana;
 	border: 1px;
 }
@@ -127,7 +127,7 @@ button:hover
 	box-shadow: 20px 15px 25px 15px #cdb5ec;
 }
 ::placeholder{
-	color: black;w
+	color: black;
 }
 body{
 	background-color: #e7dfed;
@@ -135,5 +135,5 @@ body{
 
     .main {
         line-height: normal;
-        font-size: auto;
+       
     }
