@@ -124,13 +124,13 @@ button:hover
 	cursor: pointer;
 	border-radius:50px;
 	background: #c2a1e6;
-	box-shadow: 2px 15px 25px 5px #cdb5ec;
+	box-shadow: 20px 15px 25px 15px #cdb5ec;
 }
 ::placeholder{
 	color: black;
 }
 body{
-	background-color: #ffffff;
+	background-color: #e7dfed;
 }
 
     .main {
