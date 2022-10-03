@@ -69,9 +69,9 @@ button {
 	height: 40px;
 	font-size: 17px;
 	border-radius:50px;
-	border: 2px solid #1697e2;
+	border: 2px solid #ffffff;
 	background: transparent;
-	color: black;
+	color: white;
 	margin-top: 50px ;
 	
 	
@@ -123,14 +123,15 @@ td{
 button:hover
 {
 	cursor: pointer;
-	background-color:#1697e2;
-	transition: 0.6s;
+	border-radius:50px;
+	background: #8f7CEC;
+	box-shadow: 0 0 5px #8F7CEC,0 0 25px #8F7CEC,0 0 58PX #8F7CEC,0 0 100PX #8F7CEC;
 }
 ::placeholder{
 	color: black;
 }
 body{
-	background-color: #afc7ce;
+	background-color: #e5c0fb;
 }
 section {
         display: flex;
