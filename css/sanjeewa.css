@@ -2,7 +2,7 @@
 	margin: 0;
 	padding: 10;
 	font-family: Verdana;
-	border:0;
+	border: 1px;
 }
 
 
@@ -32,7 +32,7 @@
 	content: '';
 	height: 3px;
 	width: 0;
-	background: #1697e2;
+	background: #d96bde;
 	position: absolute;
 	left: 0;
 	bottom: -7px;
@@ -62,19 +62,6 @@
 font-family: sans-serif;
 	margin: 10px 100px;
 	font-weight: 100;
-}
-
-button {
-	width: 350px;
-	height: 40px;
-	font-size: 17px;
-	border-radius:50px;
-	border: 2px solid #ffffff;
-	background: transparent;
-	color: white;
-	margin-top: 50px ;
-	
-	
 }
 
 input{
@@ -120,12 +107,24 @@ td{
 	border-radius: 10px;
 	color: black;
 }
+
+button {
+	width: 175px;
+	height: 40px;
+	font-size: 17px;
+	border-radius:50px;
+	border: 2px solid #c2a1e6;
+	background: transparent;
+	color: black;
+	margin-top: 50px ;
+}
+
 button:hover
 {
 	cursor: pointer;
 	border-radius:50px;
-	background: #8f7CEC;
-	box-shadow: 0 0 5px #8F7CEC,0 0 25px #8F7CEC,0 0 58PX #8F7CEC,0 0 100PX #8F7CEC;
+	background: #c2a1e6;
+	box-shadow: 2px 15px 25px 5px #cdb5ec;
 }
 ::placeholder{
 	color: black;
@@ -133,63 +132,7 @@ button:hover
 body{
 	background-color: #ffffff;
 }
-section {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-      }
 
-      /* TAKE OBJECT FAR FROM PERSPECTIVE VIEW */
-      .card {
-        /* background-color: #0000aa; */
-        perspective: 1000px;
-        margin: 1rem;
-      }
-
-      /* SET SAME COLUMN AND ROW FOR BOTH CARD */
-      .card-container {
-        width: 250px;
-        height: 320px;
-        background: none;
-        border-radius: 10px;
-        display: grid;
-        grid-template-columns: 1fr;
-		transition: all 1s ease;
-		transform-style: preserve-3d;
-      }
-      .card-front {
-        width: 100%;
-        height: 100%;
-        border-radius: 10px;
-  		backface-visibility: hidden;
-  		overflow: hidden;
-  		background: #33D5FF;
-  		color: #000;
-  		text-align: center;
-        border-radius: 10px;
-        grid-area: 1 / 1;
-        transform: rotateY(180deg);
-      }
-      .card-back {
-      width: 100%;
-  		height: 100%;
-  		border-radius: 10px;
-  		backface-visibility: hidden;
-  		overflow: hidden;
-  		background: url(assets/air.jpg);
-        background-size:cover;
-  		color: #333;
-  		text-align: center;
-        grid-area: 1 / 1;
-      }
-     /* FIX CARD IMAGES WIDTH */
-     .card-container img {
-        width: 15rem;
-      }
-
-      .card:hover .card-container {
-        transform: rotateY(180deg);
-      }
     .main {
         line-height: normal;
         font-size: auto;
