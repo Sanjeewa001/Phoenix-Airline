@@ -1,14 +1,15 @@
 *{
-	margin-left: 10px;
-	padding: 10;
+	margin: 0;
+	padding: 0;
 	font-family: verdana;
-	border:0;
+	box-sizing: border-box;
 }
- .h1{font-family:verdana;
+.container{
+	height: 100vh;
+	width: 100%;
+	background-image: url(images/bg1.jpg);
+	
 }
-
-
-
 .navbar{
 	float:right;}
 
@@ -23,7 +24,7 @@
 	list-style: none;
 	display:flex;
 	margin:0 20px;
-	position: relative;
+	position: absolute;
 
 }
 .navbar ul li a{
