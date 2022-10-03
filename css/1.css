@@ -13,8 +13,8 @@
 	background-size: cover;
 }
 .search-bar{
-	width: 100%;
-	max-width: 700px;
+	width: 360px;
+	height: 20px;
 	background: rgba(255, 255, 255, 0.2);
 	display: flex;
 	align-items: center;
@@ -23,14 +23,14 @@
 	backdrop-filter:  blur(4px) saturate(180%);
 }
 
-.search-bar .input{
+.search-bar input{
 	background: transparent;
 	flex: 1;
 	border: 0;
 	outline: none;
 	padding: 24px 20px;
-	font-size: 20px;
-	color: #cac7ff;
+	font-size: 16px;
+	color: #fff;
 }
 
 ::placeholder{
@@ -41,12 +41,12 @@
 	width: 25px;
 }
 
-.search-bar .button{
-	border: 0;
+.search-bar button{
+	border: 2px;
 	border-radius: 50%;
 	width: 60px;
 	height: 60px;
-	background: #58629b;
+	background: transparent;
 	cursor: pointer;
 }
 
@@ -83,6 +83,10 @@
 }
 .navbar ul li:hover::after{
 	width: 100%;
+}
+.navbar ul li a:hover{
+	color: white;
+	transition: 0.4s;
 }
 /* Style the search box inside the navigation bar */
 .topnav input[type=text] {
