@@ -66,14 +66,14 @@
 }
 
 input{
-	background-color:#e7dfed;
+	background-color:#FFF1F1;
     border: none;
 	color:gray;
 	text-align: center;
 }
 
 select{
-	background-color: #e7dfed;
+	background-color: #FFF1F1;
     border: none;
 	color: gray;
 }
@@ -105,7 +105,7 @@ td{
 	border: none;
 	font-size: 30px;
 	font-family: Verdana;
-	background-color: #8d7aa0;
+	background-color:#FFEEEE;
 	border-radius: 10px;
 	color: black;
 }
