@@ -50,6 +50,40 @@
 	cursor: pointer;
 }
 
+.search img{
+	width: 100%;
+	min-height: 10vh;
+	padding: 5%;
+	background-image: linear-gradient(rgba(0, 8, 51, 0.9),rgba(0, 8, 51, 0.9)),url(assets/1.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.search-bar{
+	width: 360px;
+	height: 40px;
+	background: rgba(255, 255, 255, 0.2);
+	display: flex;
+	align-items: center;
+	border-radius: 60px;
+	padding: 10px 20px;
+	backdrop-filter:  blur(4px) saturate(180%);
+}
+
+.search-bar input{
+	background: transparent;
+	flex: 1;
+	border: 0;
+	outline: none;
+	padding: 24px 20px;
+	font-size: 16px;
+	color: #fff;
+}
+
+.search-bar placeholder{
+	color: #ffffff;
+}
+
+
 
 .navbar{
 	float: right;}
