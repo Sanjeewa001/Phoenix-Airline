@@ -56,22 +56,24 @@
 }
 .content h1{
 	font-size: 70px;
-	margin-top: 80px; 
+	margin-top: 80px;
+	color: black; 
 }
 .content p{
-font-family: sans-serif;
+    font-family: sans-serif;
 	margin: 10px 100px;
 	font-weight: 100;
 }
 
 input{
-	background-color: white;
+	background-color:#e7dfed;
     border: none;
-	color: black;
+	color:gray;
+	text-align: center;
 }
 
 select{
-	background-color: white;
+	background-color: #e7dfed;
     border: none;
 	color: gray;
 }
@@ -88,14 +90,14 @@ select{
 #fr{
 	border-bottom-left-radius: 10px;
 	
+	
 }
 
-
-
-
 td{
-	
+	border-radius: 6px;
 	height: 50px;
+	font-family: Verdana;
+    
 	
 }
 
@@ -130,7 +132,7 @@ button:hover
 	color: black;w
 }
 body{
-	background-color: #e7dfed;
+	background-color: white;
 }
 
     .main {
