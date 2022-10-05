@@ -4,6 +4,85 @@
 	font-family: Verdana;
 	border: 1px;
 }
+.search .img{
+	width: 100%;
+	min-height: 100vh;
+	padding: 5%;
+	background-image: linear-gradient(rgba(0, 8, 51, 0.9),rgba(0, 8, 51, 0.9)),url(assets/1.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.search-bar{
+	width: 360px;
+	height: 20px;
+	background: rgba(255, 255, 255, 0.2);
+	display: flex;
+	align-items: center;
+	border-radius: 60px;
+	padding: 10px 20px;
+	backdrop-filter:  blur(4px) saturate(180%);
+}
+
+.search-bar input{
+	background: transparent;
+	flex: 1;
+	border: 0;
+	outline: none;
+	padding: 24px 20px;
+	font-size: 16px;
+	color: #fff;
+}
+
+::placeholder{
+	color: black;
+}
+
+.search-bar .button .img{
+	width: 25px;
+}
+
+.search-bar button{
+	border: 2px;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	background: transparent;
+	cursor: pointer;
+}
+
+.search img{
+	width: 100%;
+	min-height: 10vh;
+	padding: 5%;
+	background-image: linear-gradient(rgba(0, 8, 51, 0.9),rgba(0, 8, 51, 0.9)),url(assets/1.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.search-bar{
+	width: 360px;
+	height: 40px;
+	background: rgba(255, 255, 255, 0.2);
+	display: flex;
+	align-items: center;
+	border-radius: 60px;
+	padding: 10px 20px;
+	backdrop-filter:  blur(4px) saturate(180%);
+}
+
+.search-bar input{
+	background: transparent;
+	flex: 1;
+	border: 0;
+	outline: none;
+	padding: 24px 20px;
+	font-size: 16px;
+	color: #fff;
+}
+
+.search-bar placeholder{
+	color: #ffffff;
+}
+
 
 
 .navbar{
@@ -38,8 +117,7 @@
 	bottom: -7px;
 	transition: 0.4s;
 }
-.navbar ul li:hover::after{
-	width: 100%;
+
 }
 .logo{
 	width: 100px;
@@ -56,22 +134,24 @@
 }
 .content h1{
 	font-size: 70px;
-	margin-top: 80px; 
+	margin-top: 80px;
+	color: black; 
 }
 .content p{
-font-family: sans-serif;
+    font-family: sans-serif;
 	margin: 10px 100px;
 	font-weight: 100;
 }
 
 input{
-	background-color: white;
+	background-color:#FFF1F1;
     border: none;
-	color: black;
+	color:gray;
+	text-align: center;
 }
 
 select{
-	background-color: white;
+	background-color: #FFF1F1;
     border: none;
 	color: gray;
 }
@@ -88,14 +168,14 @@ select{
 #fr{
 	border-bottom-left-radius: 10px;
 	
+	
 }
 
-
-
-
 td{
-	
+	border-radius: 6px;
 	height: 50px;
+	font-family: Verdana;
+    
 	
 }
 
@@ -103,10 +183,11 @@ td{
 	border: none;
 	font-size: 30px;
 	font-family: Verdana;
-	background-color: #ffffff;
+	background-color:#FFEEEE;
 	border-radius: 10px;
 	color: black;
 }
+
 
 button {
 	width: 175px;
@@ -130,10 +211,107 @@ button:hover
 	color: black;w
 }
 body{
-	background-color: #e7dfed;
+	background-color: white;
 }
 
     .main {
         line-height: normal;
         font-size: auto;
     }
+.container {
+  position: relative;
+  width: 1160px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  transform-style: preserve-3d;
+  perspective: 500px;
+  margin: auto;
+}
+.container .box {
+  position: relative;
+  width: 275px;
+  height: 275px;
+  background: #000;
+  transition: 0.5s;
+  transform-style: preserve-3d;
+  overflow: hidden;
+  margin-right: 15px;
+  margin-top: 45px;
+}
+.container:hover .box {
+  transform: rotateY(25deg);
+}
+.container .box:hover ~ .box {
+  transform: rotateY(-25deg);
+}
+.container .box:hover {
+  transform: rotateY(0deg) scale(1.25);
+  z-index: 1;
+  box-shadow: 0 25px 40px rgba(0,0,0,0.5);
+}
+.container .box .imgBx {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.container .box .imgBx:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg,#f00,#000);
+  z-index: 1;
+  opacity: 0;
+  transition: 0.5s;
+  mix-blend-mode: multiply;
+}
+.container .box:hover .imgBx:before {
+  opacity: 1;
+}
+.container .box .imgBx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.container .box .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  padding: 20px;
+  align-items: flex-end;
+  box-sizing: border-box;
+}
+.container .box .content h2 {
+  color: #fff;
+  transition: 0.5s;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  font-size: 20px;
+  transform: translateY(200px);
+  transition-delay: 0.3s;
+}
+.container .box:hover .content h2 {
+  transform: translateY(0px);
+}
+.container .box .content p {
+  color: #fff;
+  transition: 0.5s;
+  font-size: 14px;
+  transform: translateY(200px);
+  transition-delay: 0.4s;
+}
+.container .box:hover .content p {
+  transform: translateY(0px);
+}
