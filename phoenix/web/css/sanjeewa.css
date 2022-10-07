@@ -1,10 +1,56 @@
 *{
 	margin: 0;
-	padding: 10px;
+	padding: 10;
 	font-family: Verdana;
 	border: 1px;
 }
 
+.search img{
+	width: 100%;
+	min-height: 10vh;
+	padding: 5%;
+	background-image: linear-gradient(rgba(0, 8, 51, 0.9),rgba(0, 8, 51, 0.9)),url(assets/1.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.search-bar{
+	width: 360px;
+	height: 40px;
+	background: rgba(255, 255, 255, 0.2);
+	display: flex;
+	align-items: center;
+	border-radius: 60px;
+	padding: 10px 20px;
+	backdrop-filter:  blur(4px) saturate(180%);
+}
+
+.search-bar input{
+	background: transparent;
+	flex: 1;
+	border: 0;
+	outline: none;
+	padding: 24px 20px;
+	font-size: 16px;
+	color: #fff;
+}
+
+.search-bar placeholder{
+	color: #ffffff;
+}
+
+.search-bar button{
+	width: 30px;
+	height: 30px;
+}
+
+.search-bar button{
+	border: 2px;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	background: transparent;
+	cursor: pointer;
+}
 
 .navbar{
 	float: right;}
@@ -56,22 +102,24 @@
 }
 .content h1{
 	font-size: 70px;
-	margin-top: 80px; 
+	margin-top: 80px;
+	color: black; 
 }
 .content p{
-font-family: sans-serif;
+    font-family: sans-serif;
 	margin: 10px 100px;
 	font-weight: 100;
 }
 
 input{
-	background-color: white;
+	background-color:#FFF1F1;
     border: none;
-	color: black;
+	color:gray;
+	text-align: center;
 }
 
 select{
-	background-color: white;
+	background-color: #FFF1F1;
     border: none;
 	color: gray;
 }
@@ -88,14 +136,14 @@ select{
 #fr{
 	border-bottom-left-radius: 10px;
 	
+	
 }
 
-
-
-
 td{
-	
+	border-radius: 6px;
 	height: 50px;
+	font-family: Verdana;
+    
 	
 }
 
@@ -103,10 +151,11 @@ td{
 	border: none;
 	font-size: 30px;
 	font-family: Verdana;
-	background-color: #ffffff;
+	background-color:#FFEEEE;
 	border-radius: 10px;
 	color: black;
 }
+
 
 button {
 	width: 175px;
@@ -127,13 +176,13 @@ button:hover
 	box-shadow: 20px 15px 25px 15px #cdb5ec;
 }
 ::placeholder{
-	color: black;
+	color: black;w
 }
 body{
-	background-color: #e7dfed;
+	background-color: white;
 }
 
     .main {
         line-height: normal;
-       
+        font-size: auto;
     }
